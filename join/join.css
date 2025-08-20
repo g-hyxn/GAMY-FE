@@ -95,5 +95,16 @@ body {
 }
 
 .next button:hover {
-  background-color: #bbaaf5;
+  background-color: #b09bf7;
+}
+
+.gender button:hover {
+  background-color: #91bbff;
+  color: white;
+}
+
+.gender button:focus {
+  outline: none;
+  background-color: #91bbff;
+  color: white;
 }

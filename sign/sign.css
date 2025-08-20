@@ -1,13 +1,14 @@
 @font-face {
-  font-family: 'Pretendard-Regular';
-  src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
   font-weight: 400;
   font-style: normal;
 }
 
 * {
   box-sizing: border-box;
-  font-family: 'Pretendard-Regular', sans-serif;
+  font-family: "Pretendard-Regular", sans-serif;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
   justify-content: center;
 }
 
-.회원가입페이지 {
+.join-page {
   text-align: center;
   max-width: 320px;
   width: 100%;
@@ -30,34 +31,34 @@ body {
   width: 120px;
 }
 
-.로그인 {
+.login {
   font-size: 14px;
-  color: #5C5C5C;
+  color: #5c5c5c;
   margin-bottom: 40px;
 }
 
-.로그인 a {
-  color: #91BBFF;
+.login a {
+  color: #91bbff;
   font-weight: bold;
   text-decoration: none;
 }
 
-.입력 {
+.input {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.입력 input {
+.input input {
   padding: 16px;
   border: 1px solid #ddd;
   border-radius: 7px;
   font-size: 14px;
 }
 
-.입력 button {
+.input button {
   padding: 14px;
-  background-color: #CEBEFF;
+  background-color: #cebeff;
   color: #fff;
   font-size: 15px;
   border: none;
@@ -68,12 +69,12 @@ body {
   font-weight: 600;
 }
 
-.입력 button:hover {
+.input button:hover {
   background-color: #bbaaf5;
 }
 
-.약관박스 {
-  background-color: #F6F6F8;
+.terms-box {
+  background-color: #f6f6f8;
   padding: 16px;
   border-radius: 7px;
   font-size: 14px;
@@ -81,7 +82,7 @@ body {
   color: #858486;
 }
 
-.필수항목 {
+.required {
   text-align: left;
   font-size: 14px;
   color: #858486;
