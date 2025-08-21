@@ -20,7 +20,7 @@ body {
   justify-content: center;
 }
 
-.login {
+.password {
   text-align: center;
   max-width: 320px;
   width: 100%;
@@ -32,33 +32,32 @@ body {
   margin-top: 0px;
 }
 
-.join {
+.회원가입 {
   font-size: 14px;
   color: #5c5c5c;
   margin-bottom: 40px;
 }
 
-.input {
+.입력 {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 20px;
 }
 
-.join a {
+.회원가입 a {
   color: #91bbff;
-  font-weight: 600;
+  font-weight: bold;
   text-decoration: none;
 }
 
-.input input {
+.입력 input {
   padding: 16px;
   border: 1px solid #ddd;
   border-radius: 6px;
   font-size: 14px;
-  width: 67%;
 }
 
-.next {
+.입력 button {
   padding: 14px;
   background-color: #cebeff;
   color: #fff;
@@ -67,36 +66,10 @@ body {
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.3s;
-  margin-top: 16px;
-  font-weight: 600;
-}
-
-.next:hover {
-  background-color: #bbaaf5;
-}
-
-.auth-check {
-  margin-bottom: 12px;
-}
-
-.check-button,
-.auth-button {
-  padding: 16px;
-  background-color: #91bbff;
-  color: #fff;
-  font-size: 15px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: all 0.3s;
   margin-top: 10px;
   font-weight: 600;
-  width: 30%;
-  font-family: "pretendard", sans-serif;
-  margin-left: 5px;
 }
 
-.check-button:hover,
-.auth-button:hover {
-  background-color: #7a9fe6;
+.입력 button:hover {
+  background-color: #bbaaf5;
 }

@@ -9,7 +9,36 @@
 
   <body>
     <div class="login">
-      <img src="/GAMY-FE/logo.svg" alt="GAMI 로고" class="logo" />
+      <img src="/logo.svg" alt="GAMI 로고" class="logo" />
+      <p class="join">이미 회원이신가요? <a href="sign1.html">로그인하기</a></p>
+      <form class="input">
+        <div class="auth">
+          <input type="text" placeholder="이메일" required />
+          <button type="submit" class="auth-button">인증하기</button>
+        </div>
+
+        <div class="auth-check">
+          <input type="text" placeholder="인증번호" required />
+          <button type="submit" class="check-button">확인</button>
+        </div>
+
+        <button type="submit" class="next">다음으로</button>
+      </form>
+    </div>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link rel="stylesheet" href="email.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GAMI | 인증</title>
+  </head>
+
+  <body>
+    <div class="login">
+      <img src="/GAMI-FE/logo.svg" alt="GAMI 로고" class="logo" />
       <p class="join">이미 회원이신가요? <a href="sign1.html">로그인하기</a></p>
       <form class="input">
         <div class="auth">
